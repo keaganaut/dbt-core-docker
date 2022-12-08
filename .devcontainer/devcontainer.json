@@ -7,7 +7,10 @@
 		"context": "..",
 		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 		"dockerfile": "../Dockerfile"
-	}
+	},
+
+	// Set environment vairables with .env in project directory; https://code.visualstudio.com/remote/advancedcontainers/environment-variables
+	"runArgs": ["--env-file",".env"]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

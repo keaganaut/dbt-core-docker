@@ -1,0 +1,12 @@
+
+
+============================== 2022-12-08 12:04:02.789161 | e2a8133c-3587-4b25-9ea5-4d8b83d8cbff ==============================
+[0m12:04:02.789170 [info ] [MainThread]: Running with dbt=1.3.1
+[0m12:04:02.789764 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/workspaces/dbt-poetry-docker/dbt_poetry_docker', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m12:04:02.789915 [debug] [MainThread]: Tracking: tracking
+[0m12:04:02.790972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffaded6970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffaded6ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffadebcf40>]}
+[0m12:04:02.791450 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /workspaces/dbt-poetry-docker/dbt_poetry_docker
+[0m12:04:02.791796 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffaded6ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffadebcf40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffadebcbb0>]}
+[0m12:04:02.791983 [debug] [MainThread]: Flushing usage events
