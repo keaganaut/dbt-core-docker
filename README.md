@@ -23,7 +23,6 @@ DBT_PROJECT=gcp_project_id
 5. Export environment variables. These env vars are used by pizza_shop/profiles.yml to establish a connection with bigquery.
 ```
 export $(cat .env | xargs)
-
 ```
 
 6. Activate virtualenv by spawning a nested poetry shell
@@ -32,7 +31,7 @@ poetry shell
 ```
 
 
-7. This repo contains a ready-made dbt project. Test the connection with `dbt debug`. Run `dbt compile` to generate dbt artifacts (eg. manifest.json) in the default target subdirectory.
+7. Test the connection with `dbt debug`. Run `dbt compile` to generate dbt artifacts (eg. manifest.json) in the default target subdirectory.
 
 ```
 cd pizza_shop
