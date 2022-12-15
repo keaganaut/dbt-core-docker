@@ -41,7 +41,3 @@ dbt debug
 dbt compile
 
 ```
-
-
-
-
